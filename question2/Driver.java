@@ -19,7 +19,7 @@ public class Driver {
         node.left = new RightSkewedBinarySearchTree.Node(30);
         node.right = new RightSkewedBinarySearchTree.Node(60);
         node.left.left = new RightSkewedBinarySearchTree.Node(10);
-        node.left.right = new RightSkewedBinarySearchTree.Node(40);
+        node.right.left = new RightSkewedBinarySearchTree.Node(55);
 
         rsbt.rightSkewedTree(node);
         rsbt.printTree(rsbt.getRootnode());
